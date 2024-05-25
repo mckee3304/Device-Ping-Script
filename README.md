@@ -1,12 +1,12 @@
 # Device Ping Script
 This python script was created to ping devices on your network and provide up/down status. The script then outputs a CSV of all devices that were scanned with their status. In addition, if desired, the script will also send the results via email. 
 
-## Usage
+## Prerequisites
 This script requires PrettyTable. Installation is straight forward. From an elevated command prompt, run the following script:
 
-'''
+```
 python -m pip install -U prettytable
-'''
+```
 
 ## Usage
 to utilize, open the devicelist.csv and add each of your devices to the list. The first column is the device name and the second column is the device IP address. Ensure the file is saved in the same directory as the DevicePingScript.py script. The script will output CSV file with the results with the Device Name, IPAddress, Status, and Date/Time. 
