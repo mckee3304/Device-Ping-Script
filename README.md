@@ -9,7 +9,7 @@ python -m pip install -U prettytable
 ```
 
 ## Usage
-to utilize, open the devicelist.csv and add each of your devices to the list. The first column is the device name and the second column is the device IP address. Ensure the file is saved in the same directory as the DevicePingScript.py script. The script will output CSV file with the results with the Device Name, IPAddress, Status, and Date/Time. 
+To utilize, open the devicelist.csv and add each of your devices to the list. The first column is the device name and the second column is the device IP address. Ensure the file is saved in the same directory as the DevicePingScript.py script. The script will output CSV file with the results with the Device Name, IPAddress, Status, and Date/Time. 
 
 Once the devicelist.csv file is saved, run the DevicePingScript.py. 
 
