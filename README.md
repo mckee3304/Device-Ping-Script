@@ -2,7 +2,7 @@
 This python script was created to ping devices on your network and provide up/down status. The script then outputs a CSV of all devices that were scanned with their status. In addition, if desired, the script will also send the results via email. 
 
 ## Prerequisites
-This script requires PrettyTable. Installation is straight forward. From an elevated command prompt, run the following script:
+This script requires PrettyTable to be installed in Python. Installation is straight forward. From an elevated command prompt, run the following script:
 
 ```
 python -m pip install -U prettytable
